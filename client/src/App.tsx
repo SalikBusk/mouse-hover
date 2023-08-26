@@ -10,10 +10,12 @@ import {
 
 // pages
 import Index from './Pages/Index';
+import Header from './Components/Navbar/Header';
 
 const Layout = () => {
   return(
     <>
+      <Header/>
       <Outlet/>
     </>
   )
