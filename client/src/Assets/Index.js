@@ -1,7 +1,7 @@
 import project1 from './Nordalys-tur-billede-taget-fra-båden-isfjelde-i-baggrunde.jpg';
-import project2 from './Nordalys-tur-billede-taget-fra-båden-isfjelde-i-baggrunde.jpg';
-import project3 from './Nordalys-tur-billede-taget-fra-båden-isfjelde-i-baggrunde.jpg';
-import project4 from './Nordalys-tur-billede-taget-fra-båden-isfjelde-i-baggrunde.jpg';
+import project2 from './Nordlys-tur-billede-af-nordlys-fra-båd.jpg';
+import project3 from './Nordlys-tur-billede-taget-fra-båden-Qinngorput-i-baggrunden.jpg';
+import project4 from './Nordlys-tur-person-kigger-op-mod-nordlys-fra-båden.jpg';
 
 const ImageIndex = {
     project1: project1,

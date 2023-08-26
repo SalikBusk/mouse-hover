@@ -4,12 +4,11 @@ import imageIndex from "../Assets/Index";
 import Modal from "../Components/Modals/Modal";
 import Project from "../Components/Project/Project";
 
-import project1 from '../Assets/Nordalys-tur-billede-taget-fra-båden-isfjelde-i-baggrunde.jpg'
 
 const projects = [
   {
     title: "Salik",
-    src: project1,
+    src: imageIndex.project1,
     color: "#000000",
   },
   {

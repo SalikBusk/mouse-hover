@@ -124,7 +124,7 @@ const Modal: React.FC<ModalProps> = ({ modal, projects }) => {
                                 }}
                             >
                                 <img
-                                    src={`/images/${src}`}
+                                    src={src}
                                     width={300}
                                     height={0}
                                     alt="image"
