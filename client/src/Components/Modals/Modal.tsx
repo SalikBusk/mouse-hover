@@ -88,19 +88,19 @@ const Modal: React.FC<ModalProps> = ({ modal, projects }) => {
                 variants={scaleAnimation}
                 initial="initial"
                 animate={active ? "enter" : "closed"}
-                // style={{
-                //     height: '350px',
-                //     width: '400px',
-                //     position: 'absolute',
-                //     backgroundColor: 'white',
-                //     overflow: 'hidden',
-                //     pointerEvents: 'none',
-                //     display: 'flex',
-                //     alignItems: 'center',
-                //     justifyContent: 'center',
-                // }}
+                style={{
+                    height: '350px',
+                    width: '400px',
+                    position: 'absolute',
+                    backgroundColor: 'white',
+                    overflow: 'hidden',
+                    pointerEvents: 'none',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                }}
             >
-                {/* <div
+                <div
                     style={{
                         height: '100%',
                         width: '100%',
@@ -132,7 +132,7 @@ const Modal: React.FC<ModalProps> = ({ modal, projects }) => {
                             </div>
                         );
                     })}
-                </div> */}
+                </div>
             </motion.div>
             <motion.div
                 ref={cursor}
